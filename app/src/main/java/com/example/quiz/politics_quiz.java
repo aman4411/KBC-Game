@@ -29,7 +29,7 @@ public class politics_quiz extends AppCompatActivity implements TextToSpeech.OnI
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_politics_quiz);
+        setContentView(R.layout.activity_main);
 
         question=findViewById(R.id.question);
         name=findViewById(R.id.name);
