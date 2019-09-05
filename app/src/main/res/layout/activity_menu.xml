@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To K.B.C"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/red"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose Any Topic - "
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="60dp"
+            android:textSize="25dp"
+            />
+
+        <TextView
+            android:id="@+id/gk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="1. General Knowledge"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp"
+            />
+
+        <TextView
+            android:id="@+id/sports"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="2. Sports"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp"
+            />
+
+        <TextView
+            android:id="@+id/bollywood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="3. Bollywood"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp"
+            />
+
+        <TextView
+            android:id="@+id/politics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="4. Politics"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp"
+            />
+
+        <TextView
+            android:id="@+id/geography"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="5. Geography"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp"
+            />
+
+        <TextView
+            android:id="@+id/physics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="6. Physics"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp"
+            />
+
+        <TextView
+            android:id="@+id/chemistry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="7. Chemistry"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="App Created By : Aman Mehta"
+        android:background="@drawable/shape"
+        android:textColor="@color/red"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_marginTop="100dp"
+        />
+
+</LinearLayout>
